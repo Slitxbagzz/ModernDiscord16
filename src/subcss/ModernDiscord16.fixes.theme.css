@@ -29,25 +29,8 @@ section.panels_c48ade {
   padding: 6px;
 }
 
-/* Lower chat field + put typing indicators on top */
-main[class^="chatContent"]>form[class^="form"] {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-main[class^="chatContent"]>form[class^="form"]:not(:has(div[class^="typing"])) {
-  margin-top: calc(7px + (var(--space-xs) * 2)) !important;
-}
-
 main[class^="chatContent"]>form[class^="form"] div[class^="channelTextArea"] {
   margin-bottom: calc(-8px + (var(--space-xs) * 2)) !important;
-
-}
-
-div[class^="typing"] {
-  position: static !important;
-  margin-top: var(--space-xs);
-  margin-bottom: var(--space-xs);
 }
 
 div[class^="messagesWrapper"] div[class^="scrollerSpacer"] {
