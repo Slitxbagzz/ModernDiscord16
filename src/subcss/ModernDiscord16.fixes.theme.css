@@ -29,10 +29,6 @@ section.panels_c48ade {
   padding: 6px;
 }
 
-main[class^="chatContent"]>form[class^="form"] div[class^="channelTextArea"] {
-  margin-bottom: calc(-8px + (var(--space-xs) * 2)) !important;
-}
-
 div[class^="messagesWrapper"] div[class^="scrollerSpacer"] {
   display: none !important;
 }
